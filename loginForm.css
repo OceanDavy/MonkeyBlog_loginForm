@@ -67,9 +67,10 @@ body{
 
 /* FORM and USERNAME / PASSWORD */
 #form{
-    background-color: #1c2833 ;
     width: 400px;
     padding: 50px;
+    background-color: #1c2833 ;
+    border: 2px solid #ff6ec7;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
