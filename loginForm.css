@@ -1,0 +1,119 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: rgb(181,160,33);
+    background: linear-gradient(60deg, rgba(181,160,33,1) 0%, rgba(179,24,118,1) 100%);
+}
+
+#title{
+    margin-bottom: 20px;
+    color: rgb(255, 235, 124);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#subtitle{
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+/* GOOGLE*/
+#signGoogle, .signGoogle{
+    text-decoration: none;
+}
+#signGoogle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 25px;
+    color: #4285F4;
+}
+.signGoogle{
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+#signGoogle:hover{
+    transition: .4s;
+    background-color:#1a2631;
+    color:#ff6ec7;
+    
+}
+#signGoogle:hover .signGoogle {
+    transition: .4s;
+    color:#ff6ec7;
+}
+
+/*DIVFORM*/
+#divForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM and USERNAME / PASSWORD */
+#form{
+    background-color: #1c2833 ;
+    width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputUser{
+    width: 300px;
+    margin: 5px;
+    font-size: 20px;
+
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+    color:white;
+}
+.inputUser:focus{
+    color: #ff6ec7;
+    background-color:  #1a2631;
+    transition: .2s;
+}
+
+/*CHECKBOX*/
+.labelCheck{
+    color: white;
+    font-size: 18px;
+}
+.checkboxUser{
+    font-size: 30px;
+}
+
+/*BUTTON*/
+#btnDo{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    border: 2px solid #f4d03f ;
+    border-radius: 5px;
+    background: none;
+}
+
+#btnDo:hover{
+    transition: .3s;
+    background-color:  #f4d03f ;
+    color: black;
+}
